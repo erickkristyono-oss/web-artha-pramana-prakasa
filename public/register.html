@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daftar Akun — PT Artha Pramana Prakasa</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/base.css" />
+  <link rel="stylesheet" href="/assets/css/layout.css" />
+  <link rel="stylesheet" href="/assets/css/app.css" />
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="module" src="/assets/js/pages/register.js"></script>
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main class="auth">
+    <aside class="auth__aside">
+      <span class="eyebrow">Client Area</span>
+      <h1>
+        <span class="stair">Mulai</span>
+        <span class="stair">Bersama</span>
+        <span class="stair stair--indent accent">Kami</span>
+      </h1>
+      <ul><li>Registrasi gratis, hanya butuh satu menit</li><li>Akses ke 4 layanan konsultasi keuangan</li><li>Konsultasi awal via WhatsApp</li></ul>
+      <div class="auth__orb" aria-hidden="true"></div>
+    </aside>
+    <div class="auth__main">
+      <form class="auth__card chamfer" data-register-form novalidate>
+        <h2>Daftar Akun</h2>
+        <p>Buat akun untuk menggunakan layanan kami.</p>
+        <div class="form-grid">
+          <div class="field"><label for="full_name">Nama Lengkap</label><input id="full_name" name="full_name" required autocomplete="name" /></div>
+          <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required autocomplete="email" /></div>
+          <div class="form-row">
+            <div class="field"><label for="phone">No. Telepon</label><input id="phone" name="phone" type="tel" autocomplete="tel" /></div>
+            <div class="field"><label for="company">Perusahaan</label><input id="company" name="company" autocomplete="organization" /></div>
+          </div>
+          <div class="field"><label for="password">Password</label>
+            <div class="pw-toggle"><input id="password" name="password" type="password" required minlength="8" autocomplete="new-password" /><button type="button" data-pw-toggle>Lihat</button></div>
+            <span class="hint">Minimal 8 karakter.</span>
+          </div>
+          <div class="form-alert" data-alert role="alert"></div>
+          <button class="btn btn-primary btn-block" type="submit">Daftar</button>
+        </div>
+        <p class="auth__switch">Sudah punya akun? <a href="/login" data-login-link>Login</a></p>
+      </form>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+</body>
+</html>

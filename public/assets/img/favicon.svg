@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <title>PT Artha Pramana Prakasa</title>
+  <circle cx="20" cy="20" r="20" fill="#111"/>
+  <path d="M11.5 28.5 20 11l8.5 17.5" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="square"/>
+  <path d="M13.6 24.6 26.4 19.6" fill="none" stroke="#15BCDF" stroke-width="2.4" stroke-linecap="square"/>
+  <circle cx="28.2" cy="18.9" r="1.9" fill="#15BCDF"/>
+</svg>

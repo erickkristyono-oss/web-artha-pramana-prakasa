@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" width="300" height="60">
+  <title>PT Artha Pramana Prakasa</title>
+  <g transform="translate(2 6) scale(1.2)">
+    <circle cx="20" cy="20" r="20" fill="#111"/>
+    <path d="M11.5 28.5 20 11l8.5 17.5" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="square"/>
+    <path d="M13.6 24.6 26.4 19.6" fill="none" stroke="#15BCDF" stroke-width="2.4" stroke-linecap="square"/>
+    <circle cx="28.2" cy="18.9" r="1.9" fill="#15BCDF"/>
+  </g>
+  <text x="64" y="34" font-family="Quantico, 'Arial Narrow', sans-serif" font-size="32" fill="#111" letter-spacing="-0.5">artha</text>
+  <text x="65" y="50" font-family="Quantico, 'Arial Narrow', sans-serif" font-size="9.5" font-weight="700" fill="#6b6f72" letter-spacing="3.2">PRAMANA PRAKASA</text>
+</svg>

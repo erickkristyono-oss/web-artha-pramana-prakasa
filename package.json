@@ -1,0 +1,23 @@
+{
+  "name": "web-artha-pramana-prakasa",
+  "version": "1.0.0",
+  "description": "Website konsultan keuangan PT Artha Pramana Prakasa",
+  "main": "server/index.js",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "db:create": "node server/utils/dbSetup.js create",
+    "db:migrate": "node server/utils/dbSetup.js migrate",
+    "db:seed": "node server/utils/dbSetup.js seed",
+    "db:reset": "node server/utils/dbSetup.js reset"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
